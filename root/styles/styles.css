@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/fondo.jpg");
+    background-position: top center;
+    height: 100vh;
+    width: 100%;
+}
+
+/*logo y titulo */
+
+.logo {
+    margin-left: 47%;
+}
+
+
+h1 {
+   /* background-color: #ace7ff; */
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 3%;
+    margin-left: 40%;
+    padding: 20px;
+    font-family: 'Island Moments', cursive;
+    font-size: 100px; 
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 18px; 
+    text-align: center;  
+  
+}
+
+h2 {
+   /* background-color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    width: 20%;
+    height: 1%;
+    margin-left: 41%;
+    padding: 5px;
+    font-family: 'Licorice', cursive; 
+    font-size: 22px; 
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 18px; 
+    text-align: center;  
+  
+}
+
+/* Barra de menu */
+
+ul {
+    margin-left: 9%;
+}
+
+.inicio {
+    display: inline;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid rgb(247, 160, 250);  
+    /*background-color: white; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 18px; 
+    text-align: center;  
+}
+
+li:hover {
+padding: 3px;
+background-color: rgb(234, 182, 255);
+color: rgb(119, 201, 255);
+}
+
+nav {
+margin-top: 5%;
+padding: 20px;
+width: 100%;
+height: 5px;
+}
+
+/*contenido */
+
+main {
+    background: white;
+    width: 80%;
+    height: 100vh;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 5px;
+    display: block;
+}
+
+section {
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, Verdana, Tahoma, sans-serif; 
+    font-size: 14px; 
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 18px; 
+    text-align: center;  
+  
+}
+
+aside {
+    display: inline-block;
+    width: 30%;
+    height: 310px;
+    margin-left: 39%;
+}
+
+.form {
+    margin-left: 37%;
+    border: 1px solid black;
+    background-color: #fff;
+    text-align: left;
+    width: 30%;
+}
+
+form {
+    margin: 5px;
+}
+
+.contacto {
+    display: block;
+    text-align: left;
+}
+
+.productos {
+    display: block;
+    text-align: left;
+}
+
+.mainCompra {
+    height: auto;
+}
+
+/*imagenes */
+
+.mini {
+    display: inline;
+    margin: 5px;
+    height: 130px;
+}
+
+.grande {
+    margin: 10px;
+    display:block;
+}
+
+/* pie de pagina */
+
+footer { 
+    text-align: right;
+    color: white;
+}
