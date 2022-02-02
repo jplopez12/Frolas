@@ -66,6 +66,7 @@
         <hr>
         <section class="form">
             <form>
+                <fieldset>
                 <legend>Producto:</legend> <br>
                 <div>Torta de crema</div>
                 <input type="checkbox" name="producto" value="torta_de_crema"/> <br>
@@ -73,22 +74,28 @@
                 <input type="checkbox" name="producto" value="chocotorta"/> <br>
                 <div>Box día de la madre</div>
                 <input type="checkbox" name="producto" value="box_dia_de_la_madre"/> <br>
-
+            </fieldset>
+            <fieldset>
+                <legend>Domicilio</legend> <br>
                 <label for="calle">Calle:</label>	
                 <input type="text" name="calle"/>
                 <label for="altura">Altura:</label>	
                 <input type="text" name="altura"/> <br>
-                
+            </fieldset>    
+            <fieldset>
                 <legend>¿Es para regalar?</legend>
                 <select name="envolver para regalo"> 
                 <option value="si">Sí</option>
                 <option value="no">No</option>
                 </select>
                 <br>
+            </fieldset>
+            <fieldset>
                 <label for="comentarios">Comentarios:</label> <br>
                 <textarea name="comentarios" cols="25" rows="5"></textarea> <br>
                 <input type="submit" value="enviar"/>
                 <input type="submit" value="limpiar formulario"/>
+            </fieldset>
             </form>
         </section>
         </main>
